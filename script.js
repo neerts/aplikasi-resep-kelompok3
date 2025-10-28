@@ -46,7 +46,7 @@ function createRecipeCard(resep) {
             ${title}
           </a>
           <span class="meta-line-list">
-            Resepku • Dibuat pengguna
+            Food Recipes • Dibuat pengguna
           </span>
         </div>
       </div>
