@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <img src="img/logo.png" alt="Logo" class="logo">
+        <h1>Food Recipes</h1>
+    </header>
+    
+    <section class="search-section">
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Cari resep favoritmu...">
+            <button class="search-button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <div id="suggestions-box"></div>
+    </section>
+
+    <main>
+        <section id="latestArticlesContainer">
+            <h2 class="section-title">Resep Terbaru</h2>
+            <div id="latestArticlesList">
+                <p class="article-desc">Memuat resep...</p>
+            </div>
+        </section>
+    </main>
+
+    <a href="tambah.html" class="fab">
+        <i class="fas fa-plus"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="supabase-client.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
